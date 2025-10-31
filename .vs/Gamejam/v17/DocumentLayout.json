@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Gamejam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\moverfondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moverfondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|C:\\Users\\marti\\Gamejam\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|C:\\Users\\marti\\Gamejam\\assets\\scripts\\portalscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|C:\\Users\\marti\\Gamejam\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ParallaxEffect.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\ParallaxEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxEffect.cs",
-              "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\ParallaxEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ParallaxEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MoverFondo.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MoverFondo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoverFondo.cs",
+              "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MoverFondo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoverFondo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T03:19:05.195Z",
+              "WhenOpened": "2025-10-27T05:48:56.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
+              "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:11:35.967Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +66,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PortalScript.cs",
               "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PortalScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PortalScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T02:10:06.697Z",
               "EditorCaption": ""
@@ -69,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T02:00:39.66Z",
               "EditorCaption": ""

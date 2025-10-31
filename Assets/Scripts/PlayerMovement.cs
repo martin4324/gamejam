@@ -1,40 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float walkSpeed = 5f;
-    public float runSpeed = 8f;
-    public float jumpForce = 8f;
+    [SerializeField]
+    float walkSpeed = 5.0f;
+    [SerializeField]
+    float runSpeed = 8.0f;
+    [SerializeField]
+    float jumpForce = 8.0f;
 
-    private Rigidbody2D rb;
-    private bool isGrounded = false;
+    Rigidbody2D rb;
 
+    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        float move = Input.GetAxis("Horizontal");
+        MovePlayer();
+    }
+
+    void MovePlayer()
+    {
         float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
 
-        rb.velocity = new Vector2(move * speed, rb.velocity.y);
+        if (Input.GetKey("d"))
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetKey("a"))
+        {
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.01f)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.contacts[0].normal.y > 0.5f)
-            isGrounded = true;
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        isGrounded = false;
     }
 }
