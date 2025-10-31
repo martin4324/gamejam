@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Gamejam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\moverfondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moverfondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|c:\\users\\marti\\gamejam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|C:\\Users\\marti\\Gamejam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86211EB8-4B43-3E4C-0709-71E43D382CCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerLife.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PlayerLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLife.cs",
+              "ToolTip": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PlayerLife.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerLife.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T04:17:02.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MoverFondo.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MoverFondo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoverFondo.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:11:35.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T05:11:35.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PortalScript.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PortalScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PortalScript.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PortalScript.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T02:10:06.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T02:10:06.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -81,12 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T02:07:35.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T02:07:35.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Gamejam\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -94,8 +108,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T02:00:39.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T02:00:39.66Z"
             }
           ]
         }
