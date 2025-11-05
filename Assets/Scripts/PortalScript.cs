@@ -9,7 +9,10 @@ public class PortalScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(nextScene);
+            if (GameManager.instance.HasKey())
+            {
+                SceneManager.LoadScene(nextScene);
+            }     
         }
     }
 }

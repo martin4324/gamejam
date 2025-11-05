@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    float walkSpeed = 5.0f;
+    float runSpeed = 3.0f;
     [SerializeField]
-    float runSpeed = 8.0f;
-    [SerializeField]
-    float jumpForce = 8.0f;
+    float jumpForce = 3.0f;
 
-    Rigidbody2D rb;
+    SpriteRenderer sprite;
+    Rigidbody2D rigi;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
+        rigi = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -27,21 +27,21 @@ public class PlayerMovement : MonoBehaviour
 
     void MovePlayer()
     {
-        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
-
         if (Input.GetKey("d"))
         {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.Translate(Vector2.right * runSpeed * Time.deltaTime);
+            sprite.flipX = false;
         }
 
         if (Input.GetKey("a"))
         {
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
+            transform.Translate(Vector2.left * runSpeed * Time.deltaTime);
+            sprite.flipX = true;
         }
 
-        if (Input.GetKey(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.01f)
+        if (Input.GetKey(KeyCode.Space) && Mathf.Abs(rigi.velocity.y) < 0.01f)
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rigi.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 }
