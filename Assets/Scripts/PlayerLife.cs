@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class PlayerLife : MonoBehaviour
 {
-    public float damageInvulnerabilityTime = 1.0f; // Tiempo de invulnerabilidad después de recibir daño
-    private bool canTakeDamage = true;
+    public float damageInvulnerabilityTime = 1.0f;
+    public bool canTakeDamage = true; // Cambiar de private a public
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("enemy") && canTakeDamage)
         {
-            // Aplicar daño
             GameManager.instance.TakeDamage(1);
-
-            // Iniciar período de invulnerabilidad
             StartCoroutine(DamageInvulnerability());
         }
     }
